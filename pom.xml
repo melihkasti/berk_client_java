@@ -8,6 +8,34 @@
     <artifactId>BerkClient</artifactId>
     <version>1.0.0</version>
 
+    <name>BerkTest Client</name>
+    <description>BerkTest Client is a library for automating applications, interacting with BerkTest Server.</description>
+    <url>http://berktest.ai</url>
+
+    <licenses>
+        <license>
+            <name>Creative Commons Attribution-NonCommercial 4.0 International</name>
+            <url>http://creativecommons.org/licenses/by-nc/4.0/</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/melihkasti/berk_client_java.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>DrMMK</id>
+            <name>Mustafa Melih Kasti</name>
+            <email>melihkasti@gmail.com</email>
+            <organization>BerkTestAI</organization>
+            <organizationUrl>http://berktest.ai</organizationUrl>
+        </developer>
+
+    </developers>
+
+
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
