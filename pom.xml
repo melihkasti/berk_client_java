@@ -12,13 +12,23 @@
     <description>BerkTest Client is a library for automating applications, interacting with BerkTest Server.</description>
     <url>http://berktest.ai</url>
 
+<!--    <licenses>-->
+<!--        <license>-->
+<!--            <name>Creative Commons Attribution-NonCommercial 4.0 International</name>-->
+<!--            <url>http://creativecommons.org/licenses/by-nc/4.0/</url>-->
+<!--            <distribution>repo</distribution>-->
+<!--        </license>-->
+<!--    </licenses>-->
+
     <licenses>
         <license>
-            <name>Creative Commons Attribution-NonCommercial 4.0 International</name>
-            <url>http://creativecommons.org/licenses/by-nc/4.0/</url>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
+            <comments>A free software license which is permissive and also provides an express grant of patent rights from contributors to users.</comments>
         </license>
     </licenses>
+
 
     <scm>
         <url>https://github.com/melihkasti/berk_client_java.git</url>
@@ -126,12 +136,6 @@
     <dependencies>
         <!-- Projeye ait bağımlılıklar -->
         <!-- Örnek bir bağımlılık -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
